@@ -1,0 +1,1 @@
+Multivendor Restaurant System - Django
