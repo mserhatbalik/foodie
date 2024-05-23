@@ -5,9 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="59f84455-c9dd-4d0a-80b7-070fee286202" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/accounts/migrations/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/foodie/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/foodie/settings.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,6 +41,7 @@
     "Django Server.foodie.executor": "Run",
     "RunOnceActivity.OpenDjangoStructureViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.pycharm.django.structure.promotion.once.per.project": "true",
     "django.template.preview.state": "SHOW_EDITOR",
     "git-widget-placeholder": "main",
     "node.js.detected.package.eslint": "true",
@@ -102,7 +101,8 @@
       <workItem from="1715451529536" duration="16000" />
       <workItem from="1715530300983" duration="2020000" />
       <workItem from="1715603855855" duration="4658000" />
-      <workItem from="1715617083062" duration="5951000" />
+      <workItem from="1715617083062" duration="6027000" />
+      <workItem from="1716468629578" duration="7766000" />
     </task>
     <servers />
   </component>
