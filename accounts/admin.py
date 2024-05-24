@@ -13,6 +13,7 @@ class CustomUserAdmin(UserAdmin):
 
     # CHANGE THE FIELDS IN THE "LIST" PAGE.
     list_display = ('email', 'first_name', 'last_name', 'username', 'role', 'is_active')
+    readonly_fields = ('date_joined', 'last_login')
 
     # CHANGE THE FIELDS IN THE "ADD and MODIFY" PAGES.
     # fieldsets = (

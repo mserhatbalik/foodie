@@ -5,9 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="59f84455-c9dd-4d0a-80b7-070fee286202" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/accounts/signals.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/accounts/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/accounts/apps.py" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/apps.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/accounts/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/foodie/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/foodie/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/foodie/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/foodie/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/users/cover_photos/social.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/users/cover_photos/social_0WjERIV.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/users/profile_pictures/indoor-min_-_cut.jpg" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -106,7 +113,7 @@
       <workItem from="1715617083062" duration="6027000" />
       <workItem from="1716468629578" duration="12536000" />
       <workItem from="1716487027900" duration="5000" />
-      <workItem from="1716553807404" duration="1988000" />
+      <workItem from="1716553807404" duration="10298000" />
     </task>
     <servers />
   </component>
