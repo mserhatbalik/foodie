@@ -6,4 +6,4 @@ from django.shortcuts import render
 
 # registerUser function will be called when /accounts/registerUser/ path is accessed, which is defined in accounts/urls.py
 def registerUser(request):
-    return HttpResponse('Register User cmon')
+    return render(request, 'accounts/registerUser.html')
