@@ -12,6 +12,7 @@ Imported Modules:
 Functions:
     - registerUser: A view function for handling the registration process for a new user.
 """
+from django.contrib import messages
 # Import necessary modules and classes
 from django.http import HttpResponse
 from django.shortcuts import render, redirect
@@ -52,6 +53,9 @@ def registerUser(request):
 
             # Save the user instance to the database. This method is called to save the ROLE field.
             user.save()
+
+            # Display a success message to the user
+            messages.success(request, 'Your account has been created! You are now able to log in')
 
             # Redirect the user to the registerUser page
             return redirect('registerUser')
