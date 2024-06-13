@@ -34,3 +34,16 @@ class UserForm(forms.ModelForm):
 
         # Specify the fields that should be included in the form. These fields correspond to the fields defined in the User model.
         fields = ['first_name', 'last_name', 'username', 'email', 'password']
+
+    def clean(self):
+        # Retrieve the cleaned data from the form
+        cleaned_data = super(UserForm, self).clean()
+
+        # Retrieve the password and confirm_password fields from the cleaned data
+        password = cleaned_data.get('password')
+        confirm_password = cleaned_data.get('confirm_password')
+
+        # Check if the password and confirm_password fields match
+        if password != confirm_password:
+            # If they don't match, raise a validation error
+            raise forms.ValidationError("Passwords do not match")
